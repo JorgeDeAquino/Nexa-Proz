@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/home/bg-nexa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+
+.logo a img {
+    color: #fff;
+    width: 80px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 1rem;
+    background-color: #0d2a4a;
+    border-radius: 15px;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #9524e0;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#inicio {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+h1 {
+    color: #fff;
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+p {
+    color: #fff;
+    font-size: 2rem;
+    
+}

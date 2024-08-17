@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../../assets/servico/bg-servicos.png);
+}
+
+.intro {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 30%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 15px 0;
+    color: #394ab7;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 15px 20px;
+}
+
+.card ul li {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #394ab7;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.card a:hover {
+    color: #ff7f50;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+}
